@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/mahtues/go-fixing-circular-deps/internal/a"
-	"github.com/mahtues/go-fixing-circular-deps/internal/b"
+	a "github.com/mahtues/go-fixing-circular-deps/internal/a/concrete"
+	b "github.com/mahtues/go-fixing-circular-deps/internal/b/concrete"
 )
 
 func main() {
